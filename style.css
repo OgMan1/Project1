@@ -124,11 +124,14 @@ html {
   align-items: center;
 }
 
-.landing1,
 .landingBottom,
 .landing {
-  margin-top: 14vh;
+  margin-top: 4em;
   color: white;
+}
+
+.landing {
+  margin-top: 9em;
 }
 
 .landingBottom {
@@ -228,10 +231,9 @@ html {
 }
 
 .landingP p {
-  margin-top: 1em;
   font-size: 18px;
   line-height: 1.6em;
-  padding: 1em;
+  padding: 1em 1.5em;
 }
 
 .landingP,
@@ -353,8 +355,8 @@ html {
 }
 
 .btMobRow {
-  padding-top: 3em;
-  margin-bottom: 5em;
+  padding-top: 1em;
+  margin-bottom: 6em;
 }
 
 /* SINGLE PAGE  */
@@ -377,7 +379,7 @@ html {
 .gradientImgBg16,
 .gradientImgBg17,
 .gradientImgBg18 {
-  height: 70vh;
+  height: 65vh;
   background-image: url("gal/game1/1bg.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -690,15 +692,6 @@ html {
     height: 250px;
   }
 
-  .landing1,
-  .landing {
-    margin-top: 9vh;
-  }
-
-  .landing {
-    margin-top: 8vh;
-  }
-
   .rowMarginTop {
     margin-top: 9vh;
   }
@@ -757,9 +750,13 @@ html {
     padding: 5px 10px;
   }
 
-  .landing1 {
+  /* .landing {
+    margin-top: 4em;
+  } */
+
+  /* .landing1 {
     margin-top: 14vh;
-  }
+  } */
 
   .thumbnail a > img {
     height: 200px;
@@ -818,7 +815,7 @@ html {
   }
 
   .landingP p {
-    padding: 0.5em;
+    padding: 1em;
   }
 }
 
@@ -932,9 +929,9 @@ html {
     display: none;
   }
 
-  .landing1 {
+  /* .landing1 {
     margin-top: 0;
-  }
+  } */
 
   .landing h1,
   .landingBottom h1 {
@@ -969,6 +966,7 @@ html {
 
   .landingP p {
     font-size: 16px;
+    padding: 1em 0.5em;
   }
 
   .landingBtn {
@@ -1009,9 +1007,14 @@ html {
     font-size: 1.2em;
   }
 
+  .landing h1,
+  .landingBottom h1 {
+    font-size: 24px;
+  }
+
   .btMobRow {
-    padding-top: 3em;
-    margin-bottom: 2em;
+    padding-top: 1em;
+    margin-bottom: 3em;
   }
 
   .landingBtn {
@@ -1075,6 +1078,6 @@ html {
 
   .landingP p {
     font-size: 15px;
-    padding: 0;
+    padding: 0.5em 0;
   }
 }
