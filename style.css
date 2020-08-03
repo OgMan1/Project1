@@ -116,6 +116,14 @@ html {
   background-color: rgb(63, 15, 117);
 }
 
+.bgPurpMain {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .landing1,
 .landingBottom,
 .landing {
@@ -124,7 +132,7 @@ html {
 }
 
 .landingBottom {
-  padding-top: 3em;
+  padding-top: 2em;
   margin-top: 5em;
 }
 
@@ -223,6 +231,7 @@ html {
   margin-top: 1em;
   font-size: 18px;
   line-height: 1.6em;
+  padding: 1em;
 }
 
 .landingP,
@@ -344,8 +353,8 @@ html {
 }
 
 .btMobRow {
-  margin-top: 2vh;
-  margin-bottom: 10vh;
+  padding-top: 3em;
+  margin-bottom: 5em;
 }
 
 /* SINGLE PAGE  */
@@ -924,12 +933,17 @@ html {
   }
 
   .landing1 {
-    margin-top: 16vh;
+    margin-top: 0;
   }
 
   .landing h1,
   .landingBottom h1 {
     font-size: 28px;
+  }
+
+  .landingBottom {
+    padding-top: 0;
+    margin-top: 5em;
   }
 
   .bgGradientSinglePage {
@@ -950,7 +964,11 @@ html {
   }
 
   .landing {
-    margin-top: 17vh;
+    margin-top: 0;
+  }
+
+  .landingP p {
+    font-size: 16px;
   }
 
   .landingBtn {
@@ -991,13 +1009,14 @@ html {
     font-size: 1.2em;
   }
 
-  .landingBtn {
-    padding: 10px 15px;
-    font-size: 1.15em;
+  .btMobRow {
+    padding-top: 3em;
+    margin-bottom: 2em;
   }
 
-  .landing1 {
-    margin-top: 23vh;
+  .landingBtn {
+    padding: 7px 10px;
+    font-size: 1.1em;
   }
 
   .singleRow {
@@ -1008,13 +1027,14 @@ html {
     font-size: 26px;
   }
 
+  .btOne,
+  .btTwo {
+    width: 90%;
+  }
+
   .btOne {
     margin-bottom: 9px;
     padding: 5px 18px;
-  }
-
-  .landing {
-    margin-top: 27vh;
   }
 
   @keyframes fontbulger {
@@ -1054,6 +1074,7 @@ html {
   }
 
   .landingP p {
-    font-size: 16px;
+    font-size: 15px;
+    padding: 0;
   }
 }
