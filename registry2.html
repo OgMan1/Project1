@@ -89,17 +89,27 @@
 
         }
 
+        .panelBgColor a {
+            background-color: rgb(88, 88, 88);
+            color: yellow;
+            font-size: 1.25em;
+            padding: 10px;
+            font-weight: bold;
+        }
+
         .button {
             background-color: transparent;
             border: 1px solid yellow;
             color: ghostwhite;
             padding: 10px;
+            font-size: 1.1em;
+            font-weight: bold;
         }
 
         .button:hover {
-            color: rgb(73, 73, 73);
-            border: 1px solid orangered;
-            color: ghostwhite;
+            color: rgb(61, 61, 61);
+            background-color: yellow;
+            transition: all 0.3s linear;
         }
 
         .form-group select {
@@ -135,21 +145,26 @@
     <div id="main" onclick="closeNav()"></div>
     <div id="mySidenav" class="sidenav" style="padding: inherit;">
         <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-6"><a href="https://brainster.co/" target="_blank"><img src="gal/logo.png" width="95px" class="img" height="32px" style="margin-top: 10px"></a></div>
+            <div class="col-md-6 col-sm-6 col-xs-6"><a href="https://brainster.co/" target="_blank"><img
+                        src="gal/logo.png" width="95px" class="img" height="32px" style="margin-top: 10px"></a></div>
             <div class="col-md-6 col-sm-6 col-xs-6 sideLogos2">
-                <a href="javascript:void(0)" class="closebtn zatvoriB" onclick="closeNav()" style="display: inline-flex;">&times;
+                <a href="javascript:void(0)" class="closebtn zatvoriB" onclick="closeNav()"
+                    style="display: inline-flex;">&times;
                     <p style="font-size: 15px" id="zatvori">Затвори</p>
                 </a></div>
         </div>
         <a href="registry.html"
             style="font-size: 15px; color: rgb(252, 210, 50); border-bottom: 1px solid #DFD6D4; margin-top: 60px"><b>Регистрирај
                 се</b></a>
-        <a href="registry2.html" style="font-size: 15px; color: rgb(252, 210, 50); border-bottom: 1px solid #DFD6D4"><b>Најави се
+        <a href="registry2.html"
+            style="font-size: 15px; color: rgb(252, 210, 50); border-bottom: 1px solid #DFD6D4"><b>Најави се
             </b></a>
         <a href="index.html" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Дома</b></a>
         <a href="aboutus.html" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>За нас</b></a>
-        <a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Галерија</b></a>
-        <a href="contact.html" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Контакт</b></a>
+        <a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank"
+            style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Галерија</b></a>
+        <a href="contact.html"
+            style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Контакт</b></a>
     </div>
 
 
@@ -209,52 +224,54 @@
 
 
 
-            <div class="row firstRowCollapse" style="color: orangered;">
-                <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-                    <div>
-                        <div class="panel panelBgColor">
-                            <div class="panel-heading text-center">
-                                <div class="panel-title">
-                                    <a class="btn btn-block btnCollapse" data-toggle="collapse" role="button"
-                                        href="#collapse1" aria-expanded="false" aria-controls="collapse1">НАЈАВИ СЕ
-                                        <span class="caret"></span></a></div>
-                            </div>
-                            <div class="panel-collapse collapse" id="collapse1">
-                                <div class="panel-body">
-                                    <form action="/action_page.php" method="POST">
-                                     
-                                        <div class="form-group">
-                                            <input placeholder="Внесете E-mail" required type="text"
-                                                class="form-control"></div>
-                                        <div class="form-group">
-                                            <input placeholder="Внесете Лозинка" required type="password"
-                                                class="form-control"></div>
-                                        <div class="form-group">
-                                            <input type="checkbox" pull-left id="chk">
-                                            <label for="chk">Зачувај лозинка</label>
-                                        
-                                        </div>
-                                        
-                                        <div class="form-group">
-                                            <label ><span class="text-danger">Промени лозинка</span></label>
-                                            <input placeholder="Внесете ја старата лозинка" type="password"
-                                                class="form-control">
-                                            </div>
-                                            <div class="form-group">
-                                                <input placeholder="Внесете ја новата лозинка" type="password"
-                                                class="form-control">
-                                            </div>
+        <div class="row firstRowCollapse" style="color: orangered;">
+            <div
+                class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div>
+                    <div class="panel panelBgColor">
+                        <div class="panel-heading text-center">
+                            <div class="panel-title">
+                                <a class="btn btn-block btnCollapse" data-toggle="collapse" role="button"
+                                    href="#collapse1" aria-expanded="false" aria-controls="collapse1">НАЈАВИ СЕ
+                                    <span class="caret"></span></a></div>
+                        </div>
+                        <div class="panel-collapse collapse" id="collapse1">
+                            <div class="panel-body">
+                                <form action="/action_page.php" method="POST">
 
-                                        <div class="form-group">
-                                            <button type="submit" class="btn btn-block button btn-danger">Испрати</button></div>
-                                    </form>
-                                </div>
+                                    <div class="form-group">
+                                        <input placeholder="Внесете E-mail" required type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <input placeholder="Внесете Лозинка" required type="password"
+                                            class="form-control"></div>
+                                    <div class="form-group">
+                                        <input type="checkbox" pull-left id="chk">
+                                        <label for="chk">Зачувај лозинка</label>
+
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label><span style="color: orangered;">Промени лозинка</span></label>
+                                        <input placeholder="Внесете ја старата лозинка" type="password"
+                                            class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <input placeholder="Внесете ја новата лозинка" type="password"
+                                            class="form-control">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-block button ">Испрати</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
-
                 </div>
+
             </div>
+        </div>
 
 
     </div>

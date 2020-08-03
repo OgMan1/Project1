@@ -3,144 +3,206 @@
 
 <head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Регистрирај се</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Регистрирај се</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta name="description" content="Project 1">
-    <meta name="keywords" content="bootstrap project">
-    <meta name="author" content="Ognen Mancevski">
-    <link rel="icon" href="gal/game1/6.png">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="description" content="Project 1">
+  <meta name="keywords" content="bootstrap project">
+  <meta name="author" content="Ognen Mancevski">
+  <link rel="icon" href="gal/game1/6.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-    <style>
-* {
-  box-sizing: border-box;
-}
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-body {
-  margin: 0;
-  font-family: Arial;
-  font-size: 17px;
-  height: 100vh;
-  position: relative;
-}
+    body {
+      margin: 0;
+      font-family: Arial;
+      font-size: 17px;
+      height: 100vh;
+      position: relative;
+    }
 
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}
+    #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
 
-.audioX {
-  position: fixed;
-  bottom: 0;
-  background:transparent;
-  color: #f1f1f1;
-  margin: 0px 0px 25px 15px;
-}
+    .audioX {
+      position: fixed;
+      bottom: 0;
+      background: transparent;
+      color: #f1f1f1;
+      margin: 0px 0px 25px 15px;
+    }
 
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
+    #myBtn {
+      width: 200px;
+      font-size: 18px;
+      padding: 10px;
+      border: none;
+      background: #000;
+      color: #fff;
+      cursor: pointer;
+    }
 
-#myBtn:hover {
-  background: #ddd;
-  color: black;
-}
+    #myBtn:hover {
+      background: #ddd;
+      color: black;
+    }
 
-textarea {
-    background-color: transparent;
-    color: yellow;
-  border: 1px solid yellow;
+    textarea {
+      background-color: transparent;
+      color: yellow;
+      border: 1px solid yellow;
 
-}
+    }
 
-.form1 { 
-  background-color: transparent;
-  margin-top: 12vh;
-  /* color: honeydew */
-  color: yellow;
-}
+    .form1 {
+      background-color: rgba(0, 0, 0, 0.8);
+      margin-top: 12vh;
+      color: yellow;
+      padding: 0 4em;
+      border-radius: 6px;
 
-.form1 input {
-  background-color: transparent;
-  color: yellow;
-  border: 1px solid yellow;
+    }
 
-}
+    .flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-.button {
-  background-color: transparent;
-  border: 1px solid yellow;
-  color: ghostwhite;
-  padding: 10px;
-}
+    .form1 input {
+      background-color: transparent;
+      color: yellow;
+      border: 1px solid yellow;
+    }
 
-.button:hover {
-  color: rgb(73, 73, 73);
-  color: ghostwhite;
-}
+    .form1 h3 {
+      margin: 1em;
+    }
 
-.form-group select {
-  border: 1px solid yellow;
+    .button {
+      background-color: transparent;
+      border: 1px solid yellow;
+      color: ghostwhite;
+      padding: 10px;
+    }
 
-}
+    .button:hover {
+      color: rgb(73, 73, 73);
+      color: ghostwhite;
+    }
 
-.form-group select option {
-    background-color: rgb(2, 2, 119);
-  border: 1px solid yellow;
-  color: red;
-}
+    .form-group select {
+      border: 1px solid yellow;
 
-h3, h4, .form-group label {
-    color: ghostwhite;
-}
+    }
 
-.space {
-  height: 100vh;
-}
+    .form-group select option {
+      background-color: rgb(2, 2, 119);
+      border: 1px solid yellow;
+      color: red;
+    }
+
+    h3,
+    h4,
+    .form-group label {
+      color: ghostwhite;
+    }
+
+    .space {
+      min-height: 100vh;
+    }
+
+    @media screen and (max-width: 1025px) {
+      .form1 {
+        margin-top: 25vh;
+        padding: 1em;
+      }
+
+      .form1 h3,
+      .form1 h4 {
+        margin: 1em 0 1.5em 0;
+      }
+
+      .audioX {
+        margin: 1px;
+      }
+
+    }
+
+    @media screen and (max-width: 993px) {
+      .form1 {
+        margin-top: 10em;
+        min-height: 65vh;
+        padding-bottom: 1em;
+
+      }
+
+      .form1 h3,
+      .form1 h4 {
+        margin: 1em 0 1.5em 0;
+      }
+
+      .audioX {
+        margin: 1px;
+      }
+
+    }
 
 
-@media screen and (max-width: 479px) {
-  .form1 {
-    margin-top: 10vh;
-  }
+    @media screen and (max-width: 479px) {
+      .form1 {
+        margin-top: 4em;
+        min-height: 88vh;
+      }
 
-  .audioX {
-  margin: 1px;
-}
+      .audioX {
+        display: none;
+      }
 
-}
+      .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
 
-@media screen and (max-width: 321px) {
-  .space {
-  height: 135vh;
-}
+    }
 
-}
+    @media screen and (min-width: 449px) and (max-width: 459px) {
+      .form1 {
+        margin-top: 5em;
+        min-height: 105vh;
+      }
 
+    }
 
-</style>
+    @media screen and (max-width: 399px) {
+      .form1 {
+        min-height: 110vh;
+      }
+
+    }
+  </style>
 
 
 
@@ -151,152 +213,156 @@ h3, h4, .form-group label {
 <body>
 
   <div id="main" onclick="closeNav()"></div>
-    <div id="mySidenav" class="sidenav" style="padding: inherit;">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-6"><a href="https://brainster.co/" target="_blank"><img src="gal/logo.png" width="95px" class="img" height="32px" style="margin-top: 10px"></a></div>
-            <div class="col-md-6 col-sm-6 col-xs-6 sideLogos2">
-                <a href="javascript:void(0)" class="closebtn zatvoriB" onclick="closeNav()" style="display: inline-flex;">&times;
-                    <p style="font-size: 15px" id="zatvori">Затвори</p>
-                </a></div>
-        </div>
-        <a href="registry.html"
-            style="font-size: 15px; color: rgb(252, 210, 50); border-bottom: 1px solid #DFD6D4; margin-top: 60px"><b>Регистрирај
-                се</b></a>
-        <a href="registry2.html" style="font-size: 15px; color: rgb(252, 210, 50); border-bottom: 1px solid #DFD6D4"><b>Најави се
-            </b></a>
-        <a href="index.html" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Дома</b></a>
-        <a href="aboutus.html" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>За нас</b></a>
-        <a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Галерија</b></a>
-        <a href="contact.html" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Контакт</b></a>
+  <div id="mySidenav" class="sidenav" style="padding: inherit;">
+    <div class="row">
+      <div class="col-md-6 col-sm-6 col-xs-6"><a href="https://brainster.co/" target="_blank"><img src="gal/logo.png"
+            width="95px" class="img" height="32px" style="margin-top: 10px"></a></div>
+      <div class="col-md-6 col-sm-6 col-xs-6 sideLogos2">
+        <a href="javascript:void(0)" class="closebtn zatvoriB" onclick="closeNav()"
+          style="display: inline-flex;">&times;
+          <p style="font-size: 15px" id="zatvori">Затвори</p>
+        </a></div>
     </div>
+    <a href="registry.html"
+      style="font-size: 15px; color: rgb(252, 210, 50); border-bottom: 1px solid #DFD6D4; margin-top: 60px"><b>Регистрирај
+        се</b></a>
+    <a href="registry2.html"
+      style="font-size: 15px; color: rgb(252, 210, 50); border-bottom: 1px solid #DFD6D4"><b>Најави се
+      </b></a>
+    <a href="index.html" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Дома</b></a>
+    <a href="aboutus.html" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>За нас</b></a>
+    <a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank"
+      style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Галерија</b></a>
+    <a href="contact.html" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Контакт</b></a>
+  </div>
 
 
-    <nav class="nav navColor navTransparent navbar-fixed-top" style="z-index:1">
-        <div class="container-fluid navFlex">
-            <div class="flex">
+  <nav class="nav navColor navTransparent navbar-fixed-top" style="z-index:1">
+    <div class="container-fluid navFlex">
+      <div class="flex">
 
-                <div class="navbar-header" style="width: 38%" ;>
+        <div class="navbar-header" style="width: 38%" ;>
 
-                    <a class="navbar-brand logo" style="color:rgb(255, 230, 0);" onclick="openNav()" href="###"><i
-                            class="fas fa-bars"></i>
-                        Мени</a>
+          <a class="navbar-brand logo" style="color:rgb(255, 230, 0);" onclick="openNav()" href="###"><i
+              class="fas fa-bars"></i>
+            Мени</a>
 
-                </div>
-
-                <div class="nav navbar-nav navbar-center text-center">
-
-
-                    <a href="#" class="text-center" id="home"><img src="gal/logo.png"
-                            class="navLogo img img-responsive"></a>
-                </div>
-
-
-                <div class="collapse navbar-collapse navbar-right rightButtonGroup" id="bs-example-navbar-collapse-1"
-                    style="width: 38%" ;>
-                    <div class="navbar-form navbar-right">
-                        <div class="navbar-form navbar-right">
-                            <a href="https://www.brainster.io/business" target="_blank" class="btOne btn"><strong>Обуки
-                                    за
-                                    компании</strong></a>
-                            <a href="https://www.brainster.io/business" target="_blank"
-                                class="btTwo btn"><strong>Вработи наши
-                                    студенти</strong></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
         </div>
-    </nav>
+
+        <div class="nav navbar-nav navbar-center text-center">
 
 
+          <a href="#" class="text-center" id="home"><img src="gal/logo.png" class="navLogo img img-responsive"></a>
+        </div>
 
-    <div class="container-fluid">
 
-        <div class="row space">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-
-                    <video autoplay muted loop id="myVideo">
-                            <source src="gal/media/MilkyWay.mp4" type="video/mp4">
-                          </video>
-   
-                         
-
-                <audio autoplay controls loop class="audioX">
-                  <source src="gal/media/Intro.mp3"> 
-                </audio>
-                      
-                        
-              
+        <div class="collapse navbar-collapse navbar-right rightButtonGroup" id="bs-example-navbar-collapse-1"
+          style="width: 38%" ;>
+          <div class="navbar-form navbar-right">
+            <div class="navbar-form navbar-right">
+              <a href="https://www.brainster.io/business" target="_blank" class="btOne btn"><strong>Обуки
+                  за
+                  компании</strong></a>
+              <a href="https://www.brainster.io/business" target="_blank" class="btTwo btn"><strong>Вработи наши
+                  студенти</strong></a>
             </div>
+          </div>
 
-            
-            <div class="col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-center form1">
-                    <form action="/action_page.php" method="POST">
-                        <h3 class="text-center">Пријавете се</h3>
-                        <h4 class="text-center">Ве молиме пополнете го овој формулар за да се регистрирате</h4>
-                        <div class="form-group">
-                            <input placeholder="Внесете Ваше име" required type="text" class="form-control"></div>
-                            <div class="form-group">
-                         <input placeholder="Внесете Ваше презиме" required type="text" class="form-control"></div>
-                            <div class="form-group">
-                            <input placeholder="Внесете име на компанија" type="text"  required class="form-control"></div>
-                        <div class="form-group">
-                            <input placeholder="Внесете E-mail" required type="mail" class="form-control"></div>
-            
-                            <div class="form-group">
-                                <label for="employees">Број на вработени</label>
-                                <select style="width: 100%; background-color: transparent;" required>
-                                        <option value="sm">1</option>
-                                        <option value="med">2-10</option>
-                                        <option value="med2">11-50</option>
-                                        <option value="lg">51-200</option>
-                                        <option value="xl">200+</option>           
-                        </select>
-                          </div>
-                                <div class="form-group">
-                                        <label for="">Оддел</label>
-                                                <select style="width: 100%; background-color: transparent;" required>
-                                                        <option value="hr">Човечки ресурси</option>
-                                                        <option value="finance">Маркетинг</option>
-                                                        <option value="tech">Продукт</option>
-                                                        <option value="design">Продажба</option>        
-                                                        <option value="design">СЕО</option>  
-                                                        <option value="other">Друго</option>           
-                                        </select>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-                                        </div>
-                                        <div class="form-group">
-                                                <label for="story">Дополнителен коментар</label>
-                                            <textarea style="width: 100%;" rows="2" id="story"
-                                            maxlength="300">
-                                                    
+
+
+
+
+  <div class="container-fluid">
+
+    <div class="row space">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+
+        <video autoplay muted loop id="myVideo">
+          <source src="gal/media/MilkyWay.mp4" type="video/mp4">
+        </video>
+
+
+
+        <audio autoplay controls loop class="audioX">
+          <source src="gal/media/Intro.mp3">
+        </audio>
+
+
+
+      </div>
+
+
+      <div
+        class="col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-center form1  flex">
+        <form action="/action_page.php" method="POST">
+          <h3 class="text-center">Пријавете се</h3>
+          <h4 class="text-center">Ве молиме пополнете го овој формулар за да се регистрирате</h4>
+          <div class="form-group">
+            <input placeholder="Внесете Ваше име" required type="text" class="form-control"></div>
+          <div class="form-group">
+            <input placeholder="Внесете Ваше презиме" required type="text" class="form-control"></div>
+          <div class="form-group">
+            <input placeholder="Внесете име на компанија" type="text" required class="form-control"></div>
+          <div class="form-group">
+            <input placeholder="Внесете E-mail" required type="mail" class="form-control"></div>
+
+          <div class="form-group">
+            <label for="employees">Број на вработени</label>
+            <select style="width: 100%; background-color: transparent;" required>
+              <option value="sm">1</option>
+              <option value="med">2-10</option>
+              <option value="med2">11-50</option>
+              <option value="lg">51-200</option>
+              <option value="xl">200+</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="">Оддел</label>
+            <select style="width: 100%; background-color: transparent;" required>
+              <option value="hr">Човечки ресурси</option>
+              <option value="finance">Маркетинг</option>
+              <option value="tech">Продукт</option>
+              <option value="design">Продажба</option>
+              <option value="design">СЕО</option>
+              <option value="other">Друго</option>
+            </select>
+
+          </div>
+          <div class="form-group">
+            <label for="story">Дополнителен коментар</label>
+            <textarea style="width: 100%;" rows="2" id="story" maxlength="300">
+
                                             </textarea>
-                                        </div>
+          </div>
 
-                                    
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-block button btn-warning">Поднесете</button></div>
-                    </form>
-                </div>
 
-                
-              </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-block button btn-warning disabled">Поднесете</button></div>
+        </form>
+      </div>
 
 
     </div>
 
-  
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+  </div>
 
 
 
-    <script type="text/javascript"  src="form.js">
 
-    </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+
+  <script type="text/javascript" src="form.js">
+
+  </script>
 
 
 </body>

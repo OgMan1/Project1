@@ -3,122 +3,146 @@
 
 <head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact form</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact form</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta name="description" content="Project 1">
-    <meta name="keywords" content="bootstrap project">
-    <meta name="author" content="Ognen Mancevski">
-    <link rel="icon" href="gal/game1/6.png">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="description" content="Project 1">
+  <meta name="keywords" content="bootstrap project">
+  <meta name="author" content="Ognen Mancevski">
+  <link rel="icon" href="gal/game1/6.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-    <style>
-* {
-  box-sizing: border-box;
-}
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-body {
-  margin: 0;
-  font-family: Arial;
-  font-size: 17px;
-  height: 100vh;
-  box-sizing: border-box;
-}
+    body {
+      margin: 0;
+      font-family: Arial;
+      font-size: 17px;
+      height: 100vh;
+      box-sizing: border-box;
+    }
 
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}
+    #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
 
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.1);
-  color: #f1f1f1;
-  padding: 20px;
-}
+    .content {
+      position: fixed;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.1);
+      color: #f1f1f1;
+      padding: 20px;
+    }
 
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
+    #myBtn {
+      width: 200px;
+      font-size: 18px;
+      padding: 10px;
+      border: none;
+      background: #000;
+      color: #fff;
+      cursor: pointer;
+    }
 
-#myBtn:hover {
-  background: #ddd;
-  color: black;
-}
+    #myBtn:hover {
+      background: #ddd;
+      color: black;
+    }
 
-textarea {
-    background-color: transparent;
-    color: black;
-  border: 1px solid black;
+    textarea {
+      background-color: transparent;
+      color: black;
+      border: 1px solid black;
 
-}
+    }
 
-.form1 { 
-  background-color: transparent;
-  margin-top: 12vh;
-  /* color: honeydew */
-  color: black;
-}
+    .form1 {
+      background-color: transparent;
+      margin-top: 12vh;
+      /* color: honeydew */
+      color: black;
+    }
 
-.form1 input {
-  background-color: transparent;
-  /* color: honeydew; */
-  color: black;
-  border: 1px solid black;
+    .form1 input {
+      background-color: transparent;
+      /* color: honeydew; */
+      color: black;
+      border: 1px solid black;
 
-}
+    }
 
-.button {
-  background-color: transparent;
-  border: 1px solid black;
-  color: black;
-  padding: 7px;
-}
+    .button {
+      background-color: transparent;
+      border: 1px solid black;
+      color: black;
+      padding: 7px;
+    }
 
-.button:hover {
-  color: rgb(73, 73, 73);
-  border: 1px solid black;
-  color: black;
-}
+    .button:hover {
+      color: rgb(73, 73, 73);
+      border: 1px solid black;
+      color: black;
+    }
 
-.form-group select {
-  border: 1px solid black;
+    .form-group select {
+      border: 1px solid black;
 
-}
+    }
 
-.form-group select option {
-    background-color: rgb(0, 0, 97);
-  border: 1px solid black;
-}
+    .form-group select option {
+      background-color: rgb(0, 0, 97);
+      border: 1px solid black;
+    }
 
-h3, h4, .form-group label, .rockets {
-    color: black;
-}
+    .audioX {
+      position: fixed;
+      bottom: 0;
+      background: transparent;
+      color: #f1f1f1;
+      margin: 0px 0px 15px 0px;
+      z-index: 10;
+    }
+
+    h3,
+    h4,
+    .form-group label,
+    .rockets {
+      color: black;
+    }
+
+    @media screen and (max-width: 767px) {
+
+      .form1 {
+        margin-top: 5vh;
+
+      }
+
+      .audioX {
+        width: 75%;
+      }
 
 
-</style>
+    }
+  </style>
 
 
 
@@ -127,118 +151,124 @@ h3, h4, .form-group label, .rockets {
 <body>
 
   <div id="main" onclick="closeNav()"></div>
-    <div id="mySidenav" class="sidenav" style="padding: inherit;">
-      <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-6"><a href="https://brainster.co/" target="_blank"><img src="gal/logo.png" width="95px" class="img" height="32px" style="margin-top: 10px"></a></div>
-          <div class="col-md-6 col-sm-6 col-xs-6 sideLogos2">
-              <a href="javascript:void(0)" class="closebtn zatvoriB" onclick="closeNav()" style="display: inline-flex;">&times;
-                  <p style="font-size: 15px" id="zatvori">Затвори</p>
-              </a></div>
-      </div>
-      <a href="registry.html"
-          style="font-size: 15px; color: rgb(252, 210, 50); border-bottom: 1px solid #DFD6D4; margin-top: 60px"><b>Регистрирај
-              се</b></a>
-      <a href="registry2.html" style="font-size: 15px; color: rgb(252, 210, 50); border-bottom: 1px solid #DFD6D4"><b>Најави се
-          </b></a>
-      <a href="index.html" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Дома</b></a>
-      <a href="aboutus.html" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>За нас</b></a>
-      <a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Галерија</b></a>
-      <a href="contact.html" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Контакт</b></a>
+  <div id="mySidenav" class="sidenav" style="padding: inherit;">
+    <div class="row">
+      <div class="col-md-6 col-sm-6 col-xs-6"><a href="https://brainster.co/" target="_blank"><img src="gal/logo.png"
+            width="95px" class="img" height="32px" style="margin-top: 10px"></a></div>
+      <div class="col-md-6 col-sm-6 col-xs-6 sideLogos2">
+        <a href="javascript:void(0)" class="closebtn zatvoriB" onclick="closeNav()"
+          style="display: inline-flex;">&times;
+          <p style="font-size: 15px" id="zatvori">Затвори</p>
+        </a></div>
+    </div>
+    <a href="registry.html"
+      style="font-size: 15px; color: rgb(252, 210, 50); border-bottom: 1px solid #DFD6D4; margin-top: 60px"><b>Регистрирај
+        се</b></a>
+    <a href="registry2.html"
+      style="font-size: 15px; color: rgb(252, 210, 50); border-bottom: 1px solid #DFD6D4"><b>Најави се
+      </b></a>
+    <a href="index.html" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Дома</b></a>
+    <a href="aboutus.html" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>За нас</b></a>
+    <a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank"
+      style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Галерија</b></a>
+    <a href="contact.html" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Контакт</b></a>
   </div>
 
-  
-    <nav class="nav navColor navTransparent navbar-fixed-top" style="z-index:1">
-        <div class="container-fluid navFlex">
-            <div class="flex">
 
-                <div class="navbar-header" style="width: 38%" ;>
+  <nav class="nav navColor navTransparent navbar-fixed-top" style="z-index:1">
+    <div class="container-fluid navFlex">
+      <div class="flex">
 
-                    <a class="navbar-brand logo" style="color:rgb(255, 230, 0);" onclick="openNav()" href="###"><i
-                            class="fas fa-bars"></i>
-                        Мени</a>
+        <div class="navbar-header" style="width: 38%" ;>
 
-                </div>
+          <a class="navbar-brand logo" style="color:rgb(255, 230, 0);" onclick="openNav()" href="###"><i
+              class="fas fa-bars"></i>
+            Мени</a>
 
-                <div class="nav navbar-nav navbar-center text-center">
-
-
-                    <a href="#" class="text-center" id="home"><img src="gal/logo.png"
-                            class="navLogo img img-responsive"></a>
-                </div>
-
-
-                <div class="collapse navbar-collapse navbar-right rightButtonGroup" id="bs-example-navbar-collapse-1"
-                    style="width: 38%" ;>
-                    <div class="navbar-form navbar-right">
-                        <div class="navbar-form navbar-right">
-                            <a href="https://www.brainster.io/business" target="_blank" class="btOne btn"><strong>Обуки
-                                    за
-                                    компании</strong></a>
-                            <a href="https://www.brainster.io/business" target="_blank"
-                                class="btTwo btn"><strong>Вработи наши
-                                    студенти</strong></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
         </div>
-    </nav>
+
+        <div class="nav navbar-nav navbar-center text-center">
 
 
+          <a href="#" class="text-center" id="home"><img src="gal/logo.png" class="navLogo img img-responsive"></a>
+        </div>
 
-    <div class="container-fluid">
 
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-
-                    <video autoplay muted loop id="myVideo">
-                            <source src="gal/media/rocket.mp4" type="video/mp4">
-                          </video>
-                          
-                          <div class="content">
-                            <button id="myBtn" onclick="myFunction()" style="background-color: transparent">||</button>
-                          </div>
-
+        <div class="collapse navbar-collapse navbar-right rightButtonGroup" id="bs-example-navbar-collapse-1"
+          style="width: 38%" ;>
+          <div class="navbar-form navbar-right">
+            <div class="navbar-form navbar-right">
+              <a href="https://www.brainster.io/business" target="_blank" class="btOne btn"><strong>Обуки
+                  за
+                  компании</strong></a>
+              <a href="https://www.brainster.io/business" target="_blank" class="btTwo btn"><strong>Вработи наши
+                  студенти</strong></a>
             </div>
+          </div>
 
-         
-             <div class="col-lg-4 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-6 col-xs-12 col-xs-offset-0 text-center rockets">
-                <h2 id="rocket"><strong>ЗАЧЕКОРЕТЕ ВО ИДНИНАТА</strong></h2>
-                <h3 style="margin-top: 2vh;"><strong>Придружете ни се на нашето неверојатно патување со безброј можности</strong></h3>
-            
-            </div>
-          
-            <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-6 col-xs-12 col-xs-offset-0 text-center form1">
+        </div>
+      </div>
+    </div>
+  </nav>
 
-                <div class="conStyle">
-                <h2><strong>КОНТAКТ<strong></h2><br>
-                <p>Телефон</p>
-                <p>+389 70 881 553</p><br>
-                <p>E-mail</p>
-                <p>ognenmance@gmail.com</p>
-                </div>
 
-                </div>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+
+        <audio autoplay controls loop class="audioX">
+          <source src="gal/media/Thunder.mp3">
+        </audio>
+
+        <video autoplay muted loop id="myVideo">
+          <source src="gal/media/rocket.mp4" type="video/mp4">
+        </video>
+
+      </div>
+
+
+
+      <div
+        class="col-lg-4 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-6 col-xs-12 col-xs-offset-0 text-center rockets">
+        <h2 id="rocket"><strong>ЗАЧЕКОРЕТЕ ВО ИДНИНАТА</strong></h2>
+        <h3 style="margin-top: 2vh;"><strong>Придружете ни се на нашето неверојатно патување со безброј
+            можности</strong></h3>
+
+      </div>
+
+      <div
+        class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-6 col-xs-12 col-xs-offset-0 text-center form1 contactForm">
+
+        <div class="conStyle">
+          <h2><strong>КОНТAКТ<strong></h2><br>
+          <p>Телефон</p>
+          <p>+389 70 881 553</p><br>
+          <p>E-mail</p>
+          <p>ognenmance@gmail.com</p>
+        </div>
+
+      </div>
 
     </div>
 
 
-    </div>
-    
-                    <embed  src="gal/media/Thunder.mp3" autostart="true" loop="true" id="audio" class="thunder">  
-                      <!-- <audio autoplay="true" loop="true" id="audio" class="thunder">
+  </div>
+
+  <!-- <embed src="gal/media/Thunder.mp3" autostart="true" loop="true" id="audio" class="thunder"> -->
+  <!-- <audio autoplay="true" loop="true" id="audio" class="thunder">
                         <source src="gal/media/Thunder.mp3"> 
                       </audio>  for Mozilla -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
 
 
   <script type="text/javascript" src="form.js">
-  
-    </script>
+
+  </script>
 
 
 </body>
